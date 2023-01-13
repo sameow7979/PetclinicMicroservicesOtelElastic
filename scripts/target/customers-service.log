@@ -1,0 +1,2 @@
+Error: Could not find or load main class javaagent:.root.spring-petclinic-microservices.scripts.opentelemetry-javaagent.jar
+Caused by: java.lang.ClassNotFoundException: javaagent:.root.spring-petclinic-microservices.scripts.opentelemetry-javaagent.jar

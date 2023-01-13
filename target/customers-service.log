@@ -1,0 +1,126 @@
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[otel.javaagent 2023-01-13 09:23:09:424 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 1.22.0
+09:23:35,933 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6222391a - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/classes!/logback-spring.xml] is not of type file
+09:23:36,331 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@538a2f0e - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/base.xml] to configuration watch list.
+09:23:36,331 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6222391a - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/base.xml] is not of type file
+09:23:36,356 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@538a2f0e - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+09:23:36,356 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6222391a - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+09:23:36,384 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+09:23:36,384 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+09:23:36,384 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+09:23:36,391 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@538a2f0e - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
+09:23:36,391 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6222391a - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
+09:23:36,433 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@538a2f0e - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/file-appender.xml] to configuration watch list.
+09:23:36,433 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6222391a - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/file-appender.xml] is not of type file
+09:23:36,726 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [jmxConfigurator] in [ch.qos.logback.classic.LoggerContext]
+09:23:36,733 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+09:23:36,734 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+09:23:36,734 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+09:23:36,734 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+09:23:36,734 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+09:23:36,734 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+09:23:36,734 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+09:23:36,734 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+09:23:36,745 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+09:23:36,745 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+09:23:36,745 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+09:23:36,745 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+09:23:36,745 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+09:23:36,745 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+09:23:36,745 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+09:23:36,745 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
+09:23:36,746 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+09:23:36,746 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+09:23:36,747 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:23:37,014 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+09:23:37,014 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:23:37,058 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:23:37,119 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1351275110 - setting totalSizeCap to 0 Bytes
+09:23:37,181 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1351275110 - Archive files will be limited to [10 MB] each.
+09:23:37,238 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1351275110 - Will use gz compression
+09:23:37,240 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1351275110 - Will use the pattern /tmp/spring.log.%d{yyyy-MM-dd}.%i for the active file
+09:23:37,255 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2313db84 - The date pattern is 'yyyy-MM-dd' from file name pattern '/tmp/spring.log.%d{yyyy-MM-dd}.%i.gz'.
+09:23:37,255 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2313db84 - Roll-over at midnight.
+09:23:37,324 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2313db84 - Setting initial period to Fri Jan 13 09:23:35 UTC 2023
+09:23:37,360 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /tmp/spring.log
+09:23:37,360 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/tmp/spring.log]
+09:23:37,372 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+09:23:37,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@d2708a7 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+09:23:37,377 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+09:23:37,377 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+09:23:37,381 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@216372b7 - End of configuration.
+09:23:37,381 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@14b4340c - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-13T09:23:39.264Z  INFO 127004 --- [           main] o.s.s.p.c.CustomersServiceApplication    : Starting CustomersServiceApplication v3.0.1 using Java 18.0.2-ea with PID 127004 (/root/spring-petclinic-microservices/spring-petclinic-customers-service/target/spring-petclinic-customers-service-3.0.1.jar started by root in /root/spring-petclinic-microservices)
+2023-01-13T09:23:39.383Z  INFO 127004 --- [           main] o.s.s.p.c.CustomersServiceApplication    : The following 1 profile is active: "chaos-monkey"
+2023-01-13T09:23:40.063Z  INFO 127004 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2023-01-13T09:23:40.063Z  INFO 127004 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=customers-service, profiles=[chaos-monkey], label=null, version=e19bfe823ffa415f0f44d7ec798959b79741ab16, state=null
+2023-01-13T09:23:51.931Z  INFO 127004 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-13T09:23:54.977Z  INFO 127004 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2991 ms. Found 2 JPA repository interfaces.
+2023-01-13T09:23:57.381Z  INFO 127004 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8f79ccb3-9523-330f-a9dd-df0b84774080
+2023-01-13T09:24:03.325Z  INFO 127004 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-01-13T09:24:03.686Z  INFO 127004 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-13T09:24:03.687Z  INFO 127004 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13T09:24:04.393Z  INFO 127004 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-13T09:24:04.403Z  INFO 127004 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 24338 ms
+2023-01-13T09:24:07.987Z  INFO 127004 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-13T09:24:11.288Z  INFO 127004 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2023-01-13T09:24:11.342Z  INFO 127004 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@25a52a60
+2023-01-13T09:24:11.404Z  INFO 127004 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-13T09:24:13.216Z  INFO 127004 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-13T09:24:14.234Z  INFO 127004 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-13T09:24:16.122Z  WARN 127004 --- [           main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-13T09:24:18.290Z  INFO 127004 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2023-01-13T09:24:27.349Z  INFO 127004 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-13T09:24:27.499Z  INFO 127004 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-13T09:24:37.050Z  INFO 127004 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-01-13T09:24:37.399Z  WARN 127004 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-13T09:24:37.424Z  INFO 127004 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-01-13T09:24:37.969Z  INFO 127004 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-13T09:24:38.333Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-13T09:24:38.365Z  INFO 127004 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:24:38.578Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-01-13T09:24:38.579Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-01-13T09:24:38.579Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-01-13T09:24:38.579Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-01-13T09:24:38.593Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-01-13T09:24:38.593Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-01-13T09:24:38.593Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-01-13T09:24:38.979Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-01-13T09:24:38.989Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-13T09:24:39.000Z  INFO 127004 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-13T09:24:39.009Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1673601879008 with initial instances count: 2
+2023-01-13T09:24:39.016Z  INFO 127004 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMERS-SERVICE with eureka with status UP
+2023-01-13T09:24:39.018Z  INFO 127004 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1673601879017, current=UP, previous=STARTING]
+2023-01-13T09:24:39.024Z  INFO 127004 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMERS-SERVICE/ip-172-31-18-148.ap-south-1.compute.internal:customers-service:8081: registering service...
+2023-01-13T09:24:39.185Z  INFO 127004 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMERS-SERVICE/ip-172-31-18-148.ap-south-1.compute.internal:customers-service:8081 - registration status: 204
+2023-01-13T09:24:39.189Z  INFO 127004 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-13T09:24:39.190Z  INFO 127004 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2023-01-13T09:24:39.220Z  INFO 127004 --- [           main] o.s.s.p.c.CustomersServiceApplication    : Started CustomersServiceApplication in 72.399 seconds (process running for 90.771)
+2023-01-13T09:25:19.779Z  INFO 127004 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13T09:25:19.780Z  INFO 127004 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-13T09:25:19.795Z  INFO 127004 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2023-01-13T09:29:38.598Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:34:38.600Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:39:38.601Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:44:38.602Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:49:38.602Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:54:38.603Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:59:38.606Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:02:33.646Z  INFO 127004 --- [nio-8081-exec-1] o.s.s.p.customers.web.PetResource        : Saving pet [Pet@255c6e02 id = [null], name = 'terst', birthDate = Wed Jan 04 00:00:00 UTC 2023, type = 'cat', ownerFirstname = 'George', ownerLastname = 'Franklin']
+2023-01-13T10:04:38.608Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:09:38.608Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:14:38.609Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:19:38.611Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:24:38.612Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:29:38.613Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:34:38.614Z  INFO 127004 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

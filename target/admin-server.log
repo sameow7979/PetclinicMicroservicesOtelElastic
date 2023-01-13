@@ -1,0 +1,118 @@
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[otel.javaagent 2023-01-13 09:23:09:494 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 1.22.0
+09:23:34,348 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@492521c4 - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/classes!/logback-spring.xml] is not of type file
+09:23:34,581 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@443a06ad - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/base.xml] to configuration watch list.
+09:23:34,581 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@492521c4 - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/base.xml] is not of type file
+09:23:34,584 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@443a06ad - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+09:23:34,584 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@492521c4 - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+09:23:34,588 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+09:23:34,588 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+09:23:34,588 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+09:23:34,591 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@443a06ad - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
+09:23:34,591 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@492521c4 - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
+09:23:34,599 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@443a06ad - Adding [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/file-appender.xml] to configuration watch list.
+09:23:34,599 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@492521c4 - URL [jar:file:/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar!/BOOT-INF/lib/spring-boot-3.0.1.jar!/org/springframework/boot/logging/logback/file-appender.xml] is not of type file
+09:23:34,699 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [jmxConfigurator] in [ch.qos.logback.classic.LoggerContext]
+09:23:34,702 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+09:23:34,704 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+09:23:34,704 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+09:23:34,704 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+09:23:34,704 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+09:23:34,704 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+09:23:34,704 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+09:23:34,704 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+09:23:34,712 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+09:23:34,712 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+09:23:34,712 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+09:23:34,712 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+09:23:34,712 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+09:23:34,712 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+09:23:34,712 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+09:23:34,712 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
+09:23:34,713 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+09:23:34,716 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+09:23:34,717 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:23:34,790 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+09:23:34,790 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:23:34,793 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:23:34,823 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1965779427 - setting totalSizeCap to 0 Bytes
+09:23:34,830 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1965779427 - Archive files will be limited to [10 MB] each.
+09:23:34,833 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1965779427 - Will use gz compression
+09:23:34,835 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1965779427 - Will use the pattern /tmp/spring.log.%d{yyyy-MM-dd}.%i for the active file
+09:23:34,841 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@15605d83 - The date pattern is 'yyyy-MM-dd' from file name pattern '/tmp/spring.log.%d{yyyy-MM-dd}.%i.gz'.
+09:23:34,841 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@15605d83 - Roll-over at midnight.
+09:23:34,857 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@15605d83 - Setting initial period to Fri Jan 13 09:22:12 UTC 2023
+09:23:34,864 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /tmp/spring.log
+09:23:34,864 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/tmp/spring.log]
+09:23:34,865 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+09:23:34,865 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6ddd1c51 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+09:23:34,865 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+09:23:34,865 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+09:23:34,868 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@1fb2eec - End of configuration.
+09:23:34,868 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@4c18516 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-13T09:23:35.488Z  INFO 127008 --- [           main] o.s.s.p.a.SpringBootAdminApplication     : Starting SpringBootAdminApplication v3.0.1 using Java 18.0.2-ea with PID 127008 (/root/spring-petclinic-microservices/spring-petclinic-admin-server/target/spring-petclinic-admin-server-3.0.1.jar started by root in /root/spring-petclinic-microservices)
+2023-01-13T09:23:35.528Z  INFO 127008 --- [           main] o.s.s.p.a.SpringBootAdminApplication     : The following 1 profile is active: "chaos-monkey"
+2023-01-13T09:23:35.947Z  INFO 127008 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2023-01-13T09:23:35.948Z  INFO 127008 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=admin-server, profiles=[chaos-monkey], label=null, version=e19bfe823ffa415f0f44d7ec798959b79741ab16, state=null
+2023-01-13T09:23:50.191Z  INFO 127008 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=92c83436-3ecc-38e6-9900-1ec0b696c814
+2023-01-13T09:23:50.600Z  INFO 127008 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-13T09:23:50.605Z  INFO 127008 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-13T09:23:50.623Z  INFO 127008 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-13T09:23:59.064Z  WARN 127008 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-01-13T09:24:02.694Z  INFO 127008 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-01-13T09:24:09.029Z  INFO 127008 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-01-13T09:24:10.865Z  WARN 127008 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-13T09:24:11.588Z  INFO 127008 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-13T09:24:12.655Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-13T09:24:12.753Z  INFO 127008 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:24:13.152Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-01-13T09:24:13.153Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-01-13T09:24:13.153Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-01-13T09:24:13.153Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-01-13T09:24:13.153Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-01-13T09:24:13.153Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-01-13T09:24:13.154Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-01-13T09:24:18.500Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-01-13T09:24:18.571Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-13T09:24:18.614Z  INFO 127008 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-13T09:24:18.658Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1673601858645 with initial instances count: 0
+2023-01-13T09:24:18.670Z  INFO 127008 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVER with eureka with status UP
+2023-01-13T09:24:18.675Z  INFO 127008 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1673601858675, current=UP, previous=STARTING]
+2023-01-13T09:24:18.695Z  INFO 127008 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/ip-172-31-18-148.ap-south-1.compute.internal:admin-server:9090: registering service...
+2023-01-13T09:24:19.507Z  INFO 127008 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/ip-172-31-18-148.ap-south-1.compute.internal:admin-server:9090 - registration status: 204
+2023-01-13T09:24:20.594Z  INFO 127008 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9090
+2023-01-13T09:24:20.603Z  INFO 127008 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9090
+2023-01-13T09:24:20.794Z  INFO 127008 --- [           main] o.s.s.p.a.SpringBootAdminApplication     : Started SpringBootAdminApplication in 54.436 seconds (process running for 72.343)
+2023-01-13T09:24:48.550Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-01-13T09:24:48.551Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-01-13T09:24:48.551Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-01-13T09:24:48.551Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-01-13T09:24:48.551Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-01-13T09:24:48.551Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-01-13T09:24:48.551Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-01-13T09:24:48.575Z  INFO 127008 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-01-13T09:29:13.179Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:34:13.184Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:39:13.184Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:44:13.185Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:49:13.186Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:54:13.187Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T09:59:13.188Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:04:13.197Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:09:13.199Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:14:13.200Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:19:13.202Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:24:13.203Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:29:13.205Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:34:13.209Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-13T10:39:13.225Z  INFO 127008 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

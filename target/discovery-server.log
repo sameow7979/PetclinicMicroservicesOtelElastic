@@ -1,0 +1,142 @@
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[otel.javaagent 2023-01-13 09:22:48:674 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 1.22.0
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-13T09:22:57.966Z  INFO 126816 --- [           main] o.s.s.p.d.DiscoveryServerApplication     : Starting DiscoveryServerApplication v3.0.1 using Java 18.0.2-ea with PID 126816 (/root/spring-petclinic-microservices/spring-petclinic-discovery-server/target/spring-petclinic-discovery-server-3.0.1.jar started by root in /root/spring-petclinic-microservices)
+2023-01-13T09:22:57.979Z  INFO 126816 --- [           main] o.s.s.p.d.DiscoveryServerApplication     : The following 1 profile is active: "chaos-monkey"
+2023-01-13T09:22:58.088Z  INFO 126816 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2023-01-13T09:22:58.088Z  INFO 126816 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=discovery-server, profiles=[chaos-monkey], label=null, version=e19bfe823ffa415f0f44d7ec798959b79741ab16, state=null
+2023-01-13T09:23:00.573Z  INFO 126816 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1913324e-6da9-3803-b4ef-729367fe5f65
+2023-01-13T09:23:01.167Z  INFO 126816 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2023-01-13T09:23:01.221Z  INFO 126816 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-13T09:23:01.221Z  INFO 126816 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13T09:23:01.353Z  INFO 126816 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-13T09:23:01.355Z  INFO 126816 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3262 ms
+2023-01-13T09:23:03.990Z  INFO 126816 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-01-13T09:23:03.992Z  INFO 126816 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-01-13T09:23:04.447Z  INFO 126816 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-01-13T09:23:04.448Z  INFO 126816 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-01-13T09:23:06.538Z  INFO 126816 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-01-13T09:23:06.621Z  WARN 126816 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-13T09:23:06.670Z  INFO 126816 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-13T09:23:06.732Z  INFO 126816 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-13T09:23:06.732Z  INFO 126816 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-01-13T09:23:06.753Z  INFO 126816 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1673601786751 with initial instances count: 0
+2023-01-13T09:23:06.841Z  INFO 126816 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-01-13T09:23:06.844Z  WARN 126816 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T09:23:06.949Z  INFO 126816 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-01-13T09:23:06.951Z  INFO 126816 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-01-13T09:23:06.963Z  INFO 126816 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-01-13T09:23:07.077Z  INFO 126816 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DISCOVERY-SERVER with eureka with status UP
+2023-01-13T09:23:07.131Z  INFO 126816 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-01-13T09:23:07.132Z  INFO 126816 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-01-13T09:23:07.132Z  INFO 126816 --- [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-01-13T09:23:07.132Z  INFO 126816 --- [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-01-13T09:23:07.133Z  INFO 126816 --- [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-01-13T09:23:07.153Z  INFO 126816 --- [      Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-01-13T09:23:07.224Z  INFO 126816 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2023-01-13T09:23:07.224Z  INFO 126816 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-01-13T09:23:07.246Z  INFO 126816 --- [           main] o.s.s.p.d.DiscoveryServerApplication     : Started DiscoveryServerApplication in 15.189 seconds (process running for 18.804)
+2023-01-13T09:24:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:24:16.831Z  INFO 126816 --- [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13T09:24:16.842Z  INFO 126816 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-13T09:24:16.844Z  INFO 126816 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-13T09:24:19.488Z  INFO 126816 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/ip-172-31-18-148.ap-south-1.compute.internal:admin-server:9090 with status UP (replication=false)
+2023-01-13T09:24:26.065Z  INFO 126816 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/ip-172-31-18-148.ap-south-1.compute.internal:api-gateway:8080 with status UP (replication=false)
+2023-01-13T09:24:35.452Z  INFO 126816 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VETS-SERVICE/ip-172-31-18-148.ap-south-1.compute.internal:vets-service:8083 with status UP (replication=false)
+2023-01-13T09:24:38.324Z  INFO 126816 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance VISITS-SERVICE/ip-172-31-18-148.ap-south-1.compute.internal:visits-service:8082 with status UP (replication=false)
+2023-01-13T09:24:39.176Z  INFO 126816 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CUSTOMERS-SERVICE/ip-172-31-18-148.ap-south-1.compute.internal:customers-service:8081 with status UP (replication=false)
+2023-01-13T09:25:07.136Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:26:07.136Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:27:07.136Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:28:07.136Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:29:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:30:07.136Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:31:07.136Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:32:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:33:06.847Z  WARN 126816 --- [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T09:33:07.136Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:34:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:35:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:36:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:37:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:38:06.950Z  INFO 126816 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2023-01-13T09:38:07.138Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:39:07.137Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:40:07.138Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:41:07.138Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:42:07.138Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:43:06.848Z  WARN 126816 --- [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T09:43:07.138Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:44:07.138Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:45:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:46:07.138Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:47:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:48:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:49:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:50:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:51:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:52:07.140Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:53:06.849Z  WARN 126816 --- [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T09:53:06.949Z  INFO 126816 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2023-01-13T09:53:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:54:07.140Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:55:07.139Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:56:07.140Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:57:07.140Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:58:07.141Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T09:59:07.141Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:00:07.141Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:01:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:02:07.141Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:03:06.849Z  WARN 126816 --- [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T10:03:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:04:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:05:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:06:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:07:07.143Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:08:06.949Z  INFO 126816 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2023-01-13T10:08:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:09:07.143Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:10:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:11:07.142Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:12:07.143Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:13:06.850Z  WARN 126816 --- [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T10:13:07.143Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:14:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:15:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:16:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:17:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:18:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:19:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:20:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:21:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:22:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:23:06.851Z  WARN 126816 --- [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T10:23:06.950Z  INFO 126816 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2023-01-13T10:23:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:24:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:25:07.144Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:26:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:27:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:28:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:29:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:30:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:31:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:32:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:33:06.851Z  WARN 126816 --- [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-01-13T10:33:07.145Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:34:07.146Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:35:07.149Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:36:07.146Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:37:07.146Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:38:06.950Z  INFO 126816 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2023-01-13T10:38:07.147Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-13T10:39:07.147Z  INFO 126816 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
